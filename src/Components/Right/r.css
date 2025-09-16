@@ -1,5 +1,5 @@
 .right-container {
-  text-align: left;
+  text-align: center;
 }
 
 .offer {
@@ -7,14 +7,19 @@
   border-radius: 8px;
   margin-bottom: 15px;
   margin-top: 15px;
+  text-align: left;
 }
 
 .offer-electronics {
   background: #ffe8a1;
 }
 
+.offer-home{
+  background: #97c6eb;
+}
+
 .offer-fashion {
-  background: #c3f7c0;
+  background: #998199;
 }
 
 /* Best Sellers */
@@ -28,7 +33,7 @@
 .seller-card {
   display: flex;
   align-items: center;
-  background: white;
+  background-color: rgb(250, 203, 206);
   padding: 8px;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
@@ -36,5 +41,7 @@
 
 .seller-card img {
   border-radius: 6px;
-  margin-right: 10px;
+  width: 125px;
+  height: 125px;
+  margin-right: 20px;
 }

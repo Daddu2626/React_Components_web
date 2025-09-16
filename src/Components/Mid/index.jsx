@@ -3,7 +3,7 @@ import './m.css';
 const Mid = () => {
   return (
     <div>
-      <h2 className="feat">🔥 Featured Products</h2>
+      <h2 className="feat">🔥 Featured Products 🔥</h2>
       <div className="products">
         <div className="product-card">
           <img src="https://tse3.mm.bing.net/th/id/OIP.atQWer43ULhwLCU8YQCjdwHaEK?pid=Api&P=0&h=220" alt="Laptop" />
