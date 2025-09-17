@@ -5,6 +5,7 @@ const Footer = () => {
       <p>Email :- modernstore@gmail.com</p>
       <p>Telegram :- @modernstore</p>
       <p>Contact :- 8308263679 </p>
+      <p>🙏...Welcome...🙏</p>
       
     </div>
   );

@@ -4,7 +4,7 @@ const Right = () => {
   return (
     <div className="right-container">
       
-      <h2>                🎁 Special Offers 🎁</h2>
+      <h2 className='special'>🎁 Special Offers 🎁</h2>
       <div className="offer offer-electronics">
         <h3>⚡ 50% Off on Electronics</h3>
         <p>Grab the hottest deals before they’re gone!</p>

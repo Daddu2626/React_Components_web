@@ -1,7 +1,11 @@
 .right-container {
   text-align: center;
 }
-
+.special{
+  margin-top: 20px;
+  margin-bottom: 45px;
+   font-weight: bold;
+}
 .offer {
   padding: 10px;
   border-radius: 8px;
@@ -12,6 +16,7 @@
 
 .offer-electronics {
   background: #ffe8a1;
+  margin-bottom: 40px;
 }
 
 .offer-home{
@@ -20,9 +25,10 @@
 
 .offer-fashion {
   background: #998199;
+  margin-bottom: 40px;
 }
 
-/* Best Sellers */
+
 .best-sellers {
   display: flex;
   flex-direction: column;
