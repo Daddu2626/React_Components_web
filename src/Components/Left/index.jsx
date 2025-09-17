@@ -6,7 +6,6 @@ const Left = () => {
 
   return (
     <div className="left-container">
-      {/* Categories */}
       <h2 className="cat">📂 Categories 📂</h2>
       <input 
         type="text" 
@@ -24,10 +23,8 @@ const Left = () => {
         <li>Toys & Games</li>
       </ul>
 
-      {/* Filters */}
       <h3 className="filter-title">⚙️ Filters</h3>
 
-      {/* Price Filter */}
       <div className="filter-section">
         <p><b>Price Range:</b></p>
         <input 
@@ -41,7 +38,7 @@ const Left = () => {
         <p className="price-label">₹100 – ₹{price}</p>
       </div>
 
-      {/* Brand Filter */}
+    
       <div className="filter-section">
         <p><b className="band">Brand:</b></p>
         <div className="brand-options">
@@ -53,7 +50,6 @@ const Left = () => {
         </div>
       </div>
 
-      {/* Rating Filter */}
       <div className="filter-section">
         <p><b>Customer Rating:</b></p>
         <label><input type="checkbox" /> ⭐⭐⭐⭐⭐ (5 Stars)</label><br />
@@ -61,7 +57,6 @@ const Left = () => {
         <label><input type="checkbox" /> ⭐⭐⭐ & Up</label><br />
       </div>
 
-      {/* Availability Filter */}
       <div className="filter-section">
         <p><b>Availability:</b></p>
         <label><input type="checkbox" /> In Stock</label><br />
@@ -69,7 +64,6 @@ const Left = () => {
         <label><input type="checkbox" /> Out of Stock</label><br />
       </div>
 
-      {/* Discount Filter */}
       <div className="filter-section">
         <p><b>Discount:</b></p>
         <label><input type="checkbox" /> 10% or more</label><br />
